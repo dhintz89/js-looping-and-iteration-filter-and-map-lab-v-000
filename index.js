@@ -8,4 +8,6 @@ function driverNamesWithRevenueOver(arr, rev) {
   return highDollarDrivers.map(function(driver){return driver.name});
 }
 
-function exactMatch(arr, )
+function exactMatch(arr, obj) {
+  return arr.filter(filter(driver){driver.})
+}
