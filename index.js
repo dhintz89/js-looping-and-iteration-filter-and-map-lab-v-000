@@ -12,3 +12,10 @@ function exactMatch(arr, obj) {
   let key = Object.keys(obj)[0];
   return arr.filter(function(driver){return driver[key] === obj[key]});
 }
+
+function exactMatchToList(arr, obj) {
+  
+}
+  let key = Object.keys(obj)[0];
+  return arr.filter(function(driver){return driver[key] === obj[key]});
+}
